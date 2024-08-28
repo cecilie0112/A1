@@ -85,13 +85,11 @@ void calculateCoins(int inputCoin, int orgInput) {
             printf("%d quarter(s), %d dime(s), %d nickel(s), %d pennie(s)\n", quarter, dime, nickel, penny);
         }
     }
-
 }
 
 int askInput (void) {
     int input;
 
-    printf("Enter amount of cents: ");
     scanf("%d", &input);
 
     return input;
